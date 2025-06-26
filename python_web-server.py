@@ -3,7 +3,7 @@ import json
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 HOST = "0.0.0.0"
-PORT = 3333
+PORT = 3000
 
 logging.basicConfig(
     level=logging.INFO,
