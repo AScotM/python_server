@@ -28,6 +28,7 @@ class CustomHandler(SimpleHTTPRequestHandler):
 
             try:
                 data = json.loads(post_data)
+                # Validate JSON data here if needed
                 response = {"status": "success", "received": data}
                 response_body = json.dumps(response).encode("utf-8")
 
